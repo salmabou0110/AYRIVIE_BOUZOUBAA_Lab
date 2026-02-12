@@ -70,7 +70,7 @@ Commande principale qui :
 
 - Exécute le provisioning défini dans le Vagrantfile
 
-        Cela automatise totalement la création de l’environnement.
+Cela automatise totalement la création de l’environnement.
 
 
 ```
@@ -109,7 +109,6 @@ ruby
 cat /etc/hosts
 ```
 
-📸 Lien capture écran :
 
 ![Execution commande](../cr-lab/image/4_play_shell_provisioner.png)
 
@@ -147,9 +146,22 @@ Cela permet de confirmer que le script s’est exécuté correctement et à quel
 
 ---
 
-
 # PARTIE 2: Declarative - GitLab installation using Vagrant and Ansible Provisioner 
 
+   2. Create and provision a virtual machine (VM)
+   3. 
+
+
+---
+
+# PARTIE 3: Declarative - Configure a health check for GitLab
+
+1. dzd
+2. dz
+3. dzdz
+4. dzdz
+5. dzdz
+6. zdzdz
 
 ---
 
