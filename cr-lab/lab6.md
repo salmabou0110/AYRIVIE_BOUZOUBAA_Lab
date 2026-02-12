@@ -54,6 +54,26 @@ Commandes executees:
 ```bash
 cd lab/part-1
 vagrant up
+<<<<<<< HEAD
+=======
+```
+
+Commande principale qui :
+
+- Télécharge la box si elle n’est pas présente
+- 
+
+- Crée la machine virtuelle
+
+- Configure le réseau
+
+- Exécute le provisioning défini dans le Vagrantfile
+
+Cela automatise totalement la création de l’environnement.
+
+
+```
+>>>>>>> f257915cfe58021ad70d8da0f64bd9de3e426191
 vagrant ssh
 ```
 
@@ -99,7 +119,10 @@ vagrant ssh
 cat /etc/hosts
 ```
 
+<<<<<<< HEAD
 Validation: l'entree `mydomain-1.local` est bien ajoutee.
+=======
+>>>>>>> f257915cfe58021ad70d8da0f64bd9de3e426191
 
 Explication de l'etape:
 - Cette partie illustre l'approche imperative: on execute explicitement une commande shell.
@@ -182,6 +205,7 @@ Explication de l'etape:
 
 ---
 
+<<<<<<< HEAD
 # PARTIE 3 - Declarative: Configure a health check for GitLab
 
 ## 1. Health check simple avec curl
@@ -234,6 +258,8 @@ Explication de l'etape:
 
 ![readiness output](./image/Readiness+Liveness 2.png)
 ![liveness output](./image/Readiness+Liveness 1.png)
+=======
+>>>>>>> f257915cfe58021ad70d8da0f64bd9de3e426191
 
 ---
 
